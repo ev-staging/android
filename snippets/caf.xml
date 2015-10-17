@@ -21,5 +21,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="r-11.0-caf" />
+
 </manifest>
 
