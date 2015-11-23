@@ -109,6 +109,7 @@
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/fingerprint" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <remove-project name="platform/vendor/qcom-opensource/lights" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
