@@ -26,5 +26,7 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk" remote="evervolv" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,pdk" remote="evervolv" revision="r-11.0-caf" />
 
+  <project path="vendor/qcom/opensource/commonsys/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
+
 </manifest>
 
