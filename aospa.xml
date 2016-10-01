@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aospa-blobs"
+           fetch="https://github.com/ThankYouMario/" />
+
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="aospa-blobs" revision="disabled" />
+
+</manifest>
+
