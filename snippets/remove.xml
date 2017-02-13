@@ -95,6 +95,7 @@
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />
