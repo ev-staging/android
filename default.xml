@@ -11,5 +11,8 @@
 
   <include name="system.xml"/>
   <include name="aospa.xml"/>
+  <include name="snippets/remove.xml"/>
+  <include name="snippets/aosp.xml"/>
+  <include name="snippets/evervolv.xml"/>
 
 </manifest>
