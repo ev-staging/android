@@ -832,5 +832,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="snippets/remove.xml"/>
+  <include name="snippets/aosp.xml"/>
+  <include name="snippets/evervolv.xml"/>
 
 </manifest>
