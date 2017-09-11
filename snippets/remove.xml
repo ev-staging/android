@@ -54,5 +54,6 @@
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
 
 </manifest>
