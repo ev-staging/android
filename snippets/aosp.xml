@@ -57,6 +57,7 @@
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="evervolv-staging" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv-staging" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="evervolv-staging" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="evervolv-staging" />
   <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="evervolv-staging" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv-staging" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv-staging" />
