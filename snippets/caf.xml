@@ -5,6 +5,7 @@
            fetch="https://source.codeaurora.org/quic/la/" />
 
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="p-9.0-legacy" />
 
   <project path="external/bson" name="android_external_bson" remote="evervolv" />
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
