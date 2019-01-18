@@ -17,6 +17,9 @@
 
   <remove-project name="meta-qti-touch" />
 
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/bootable/deprecated-ota" />
+
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/build/soong" />
 

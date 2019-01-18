@@ -20,6 +20,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw" remote="evervolv-staging" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv-staging" />
+
   <project path="build/make" name="android_build" groups="pdk" remote="evervolv-staging" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
