@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="android" name="android" remote="evervolv" />
+  <project path="android" name="android" remote="staging" />
 
   <project path="external/bash" name="android_external_bash" groups="pdk" remote="evervolv" />
   <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
