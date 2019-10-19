@@ -44,6 +44,9 @@
 
   <remove-project name="platform/external/libcxx" />
 
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
