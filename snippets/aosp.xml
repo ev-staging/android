@@ -49,6 +49,7 @@
 
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-build-2023" />
 
+  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
