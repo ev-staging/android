@@ -28,6 +28,7 @@
   <remove-project name="platform/build/soong" />
 
   <remove-project name="platform/external/ant-wireless/hidl" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/json-c" />
