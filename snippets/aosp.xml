@@ -23,5 +23,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
+
 </manifest>
 
