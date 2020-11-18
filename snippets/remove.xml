@@ -111,6 +111,7 @@
   <remove-project name="platform/vendor/qcom-opensource/lights" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/qcom-opensource/usb" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <remove-project name="platform/vendor/qcom-opensource/wigig" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
