@@ -60,6 +60,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/tinycompress" />
 
   <remove-project name="platform/frameworks/av" />
