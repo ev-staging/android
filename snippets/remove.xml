@@ -57,5 +57,6 @@
   <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
 
 </manifest>
