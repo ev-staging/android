@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Hardware -->
+  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" remote="aosp" />
+  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="aosp" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" remote="aosp" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" remote="aosp" />
