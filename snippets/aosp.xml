@@ -38,6 +38,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv-staging" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="evervolv-staging" />
 
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="evervolv-staging" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="evervolv-staging" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv-staging" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv-staging" />
