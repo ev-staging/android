@@ -40,6 +40,7 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/modules/Connectivity" />
 
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
