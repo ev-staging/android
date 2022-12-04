@@ -32,6 +32,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <project path="external/avb" name="android_external_avb" groups="pdk" remote="evervolv" />
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="evervolv" />
   <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="evervolv" />
   <project path="external/libnl" name="android_external_libnl" groups="pdk" remote="evervolv" />
