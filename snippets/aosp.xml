@@ -4,11 +4,11 @@
   <remote  name="evervolv"
            fetch="https://github.com/Evervolv/"
            review="http://review.evervolv.com/"
-           revision="u-14.1" />
+           revision="u-14.0" />
 
   <remote  name="evervolv-gitlab"
            fetch="https://gitlab.com/evervolv/"
-           revision="u-14.1" />
+           revision="u-14.0" />
 
   <remote  name="github"
            fetch="https://github.com" />
