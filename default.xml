@@ -10,5 +10,6 @@
            sync-tags="false" />
 
   <include name="system.xml"/>
+  <include name="vendor.xml"/>
 
 </manifest>
