@@ -16,7 +16,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
-  <project path="build/make" name="android_build" groups="pdk" remote="evervolv" >
+  <project path="build/make" name="ev-staging/android_build" groups="pdk" remote="github" revision="qssi-15" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -24,39 +24,39 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="evervolv" >
+  <project path="build/soong" name="ev-staging/android_build_soong" groups="pdk,tradefed" remote="github" revision="qssi-15" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="evervolv" />
-  <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="evervolv" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
+  <project path="external/dtc" name="ev-staging/android_external_dtc" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="external/fastrpc" name="ev-staging/android_external_fastrpc" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="external/tinycompress" name="ev-staging/android_external_tinycompress" groups="pdk" remote="github" revision="qssi-15" />
 
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="evervolv" />
+  <project path="frameworks/av" name="ev-staging/android_frameworks_av" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="frameworks/base" name="ev-staging/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="qssi-15" />
+  <project path="frameworks/native" name="ev-staging/android_frameworks_native" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="frameworks/opt/telephony" name="ev-staging/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="qssi-15" />
 
-  <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="evervolv" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="evervolv" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv" />
+  <project path="hardware/google/pixel" name="ev-staging/android_hardware_google_pixel" groups="generic_fs,pixel" remote="github" revision="qssi-15" />
+  <project path="hardware/interfaces" name="ev-staging/android_hardware_interfaces" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="hardware/libhardware" name="ev-staging/android_hardware_libhardware" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="hardware/ril" name="ev-staging/android_hardware_ril" groups="pdk" remote="github" revision="qssi-15" />
 
-  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="evervolv" />
+  <project path="kernel/configs" name="ev-staging/android_kernel_configs" groups="vts,pdk" remote="github" revision="qssi-15" />
 
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
+  <project path="packages/apps/Settings" name="ev-staging/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="qssi-15" />
+  <project path="packages/apps/ThemePicker" name="ev-staging/android_packages_apps_ThemePicker" groups="pdk-fs" remote="github" revision="qssi-15" />
+  <project path="packages/modules/Connectivity" name="ev-staging/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" revision="qssi-15" />
 
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-build-2023" />
 
-  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="evervolv" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" remote="evervolv" />
-  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
-  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
-  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="evervolv" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
+  <project path="system/bpf" name="ev-staging/android_system_bpf" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="system/core" name="ev-staging/android_system_core" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="system/extras" name="ev-staging/android_system_extras" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="system/sepolicy" name="ev-staging/android_system_sepolicy" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="system/tools/mkbootimg" name="ev-staging/android_system_tools_mkbootimg" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="system/update_engine" name="ev-staging/android_system_update_engine" groups="pdk" remote="github" revision="qssi-15" />
+  <project path="system/vold" name="ev-staging/android_system_vold" groups="pdk" remote="github" revision="qssi-15" />
 
 </manifest>
